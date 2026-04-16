@@ -20,3 +20,5 @@
 ### 对照版本 (dual)
 采用双栏布局，左侧为英文原文，右侧为中文翻译，方便对照阅读和理解。
 
+采用本地ollama翻译，命令行
+babeldoc --openai --openai-model "qwen2.5:14b-instruct" --openai-base-url "http://localhost:11434/v1" --openai-api-key "your-api-key-here"  --files swra726.pdf --pool-max-workers 1
